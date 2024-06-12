@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site FMP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .menu {
+            background-color: rgb(51, 77, 192);
+            overflow: hidden;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+        }
+        .menu a {
+            float: left;
+            display: block;
+            color: rgb(163, 161, 228);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+        .menu a:hover {
+            background-color: rgb(61, 95, 158);
+            color: rgb(255, 255, 255);
+        }
+        .content {
+            padding: 20px;
+        }
+        .home {
+            background-image: url(Gif-capa.gif );
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        
+        .left-column {
+            padding: 20px;
+            color: white;
+            height: 220px;
+            width: auto;
+        }
+        .left-column {
+            background-color: rgb(51, 77, 192);
+            border-right: 2px solid black;            
+        }
+        .carousel-inner img {
+            max-width: 1000px;
+            max-height: 400px; /* Reduzi o tamanho aqui */
+            margin: auto;
+        }
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <a href="home.html">HOME</a>
+            <a href="vitor.html">CONTATO</a>
+            <a href="http://fmpsc.edu.br/" target="_blank">SOBRE</a>
+        </div> 
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 left-column">
+                    <h2>A Faculdade</h2>
+                    <p>A Faculdade Municipal de Palhoça (FMP) é uma instituição de ensino superior localizada na cidade de Palhoça, em Santa Catarina, Brasil. Fundada em [ano de fundação], a FMP tem como missão oferecer educação de qualidade e promover o desenvolvimento acadêmico, profissional e pessoal de seus estudantes.
+
+                        Com uma ampla gama de cursos de graduação e pós-graduação, a FMP busca atender às necessidades da comunidade local e regional, proporcionando uma educação relevante e alinhada com as demandas do mercado de trabalho.
+                        
+                        Além disso, a FMP valoriza a excelência acadêmica, contando com um corpo docente qualificado e infraestrutura moderna, que inclui laboratórios, bibliotecas e espaços de convivência, visando proporcionar um ambiente propício para o aprendizado e o crescimento pessoal de seus alunos.
+                        
+                        Por meio de parcerias com empresas e instituições, programas de intercâmbio e atividades extracurriculares, a FMP busca oferecer uma formação integral, preparando seus estudantes não apenas para o mercado de trabalho, mas também para serem cidadãos engajados e conscientes de seu papel na sociedade.</p>
+                </div>                
+        </div>
+        <hr>
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www2.fundatec.org.br/wp-content/uploads/2024/05/palhoca.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://portalpalhoca.com.br/_app/_files/img_notice/1773/fmp-abre-inscricao-para-processo-seletivo-especial-no-dia-10-de-maio.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://jornaltrindade.com.br/wp-content/uploads/2019/09/Prefeitura-de-Palho%C3%A7a.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            
+        </div>
+        
+    </main>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
